@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoiceShop — Talk to Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" data-nav="home">
+      <span class="logo">🛍️</span>
+      <h1>VoiceShop</h1>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn" data-nav="home">Home</button>
+      <button class="nav-btn cart-btn" data-nav="cart">
+        <span>Cart</span>
+        <span id="cart-count" class="cart-badge">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="page-home" class="page active">
+      <div class="hero">
+        <h2>Shop with your voice</h2>
+        <p>Tap the mic and tell us what you're looking for.</p>
+        <div id="search-info" class="search-info"></div>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty-state" class="empty-state hidden">
+        <p>No products match. Try another search.</p>
+      </div>
+    </section>
+
+    <section id="page-cart" class="page">
+      <h2>Your Cart</h2>
+      <div id="cart-items" class="cart-items"></div>
+      <div id="cart-empty" class="empty-state hidden">
+        <p>Your cart is empty. Try saying "show me sneakers".</p>
+      </div>
+      <div id="cart-summary" class="cart-summary hidden">
+        <div class="summary-row">
+          <span>Total</span>
+          <span id="cart-total">$0</span>
+        </div>
+        <button class="checkout-btn" data-nav="checkout">Checkout</button>
+      </div>
+    </section>
+
+    <section id="page-checkout" class="page">
+      <h2>Checkout</h2>
+      <div class="checkout-card">
+        <p>🎉 Demo checkout — your order is ready.</p>
+        <div id="checkout-items"></div>
+        <div class="summary-row big">
+          <span>Order total</span>
+          <span id="checkout-total">$0</span>
+        </div>
+        <button class="checkout-btn" data-nav="home">Place order</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast-host" class="toast-host"></div>
+
+  <div class="voice-dock">
+    <div id="status-pill" class="status-pill hidden">
+      <span class="dot"></span>
+      <span id="status-text">Idle</span>
+    </div>
+    <button id="mic-btn" class="mic-btn" aria-label="Start voice conversation">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+        <path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/>
+        <path d="M19 11a1 1 0 0 0-2 0 5 5 0 0 1-10 0 1 1 0 0 0-2 0 7 7 0 0 0 6 6.92V21a1 1 0 0 0 2 0v-3.08A7 7 0 0 0 19 11z"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="admin-dock">
+    <button id="admin-toggle" class="admin-toggle" title="Admin: simulate sold-out">⚙️</button>
+    <div id="admin-panel" class="admin-panel">
+      <h4>Admin · Sold-out simulator</h4>
+      <p>Pick a product to mark as sold out. Connected users with it in cart get a live alert + email.</p>
+      <select id="admin-select"></select>
+      <div class="admin-actions">
+        <button id="admin-sell-one" class="admin-sell">− Sell 1</button>
+        <button id="admin-trigger" class="admin-trigger">Mark sold out</button>
+      </div>
+      <p class="admin-hint">Sell 1 drops stock by 1. At ≤3 left → low-stock email + banner. At 0 → sold-out flow.</p>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

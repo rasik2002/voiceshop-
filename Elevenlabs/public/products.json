@@ -1,0 +1,200 @@
+[
+  {
+    "id": "p1",
+    "name": "Crimson Runner Sneakers",
+    "category": "shoes",
+    "color": "red",
+    "price": 45,
+    "rating": 4.5,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "description": "Lightweight red running sneakers with breathable mesh upper."
+  },
+  {
+    "id": "p2",
+    "name": "Classic White Leather Sneakers",
+    "category": "shoes",
+    "color": "white",
+    "price": 65,
+    "rating": 4.7,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=400",
+    "description": "Minimalist white leather sneakers for everyday wear."
+  },
+  {
+    "id": "p3",
+    "name": "Black Trail Running Shoes",
+    "category": "shoes",
+    "color": "black",
+    "price": 89,
+    "rating": 4.6,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400",
+    "description": "Rugged black trail shoes with reinforced grip soles."
+  },
+  {
+    "id": "p4",
+    "name": "Blue Cotton T-Shirt",
+    "category": "shirts",
+    "color": "blue",
+    "price": 19,
+    "rating": 4.3,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+    "description": "Soft 100% cotton t-shirt in classic blue."
+  },
+  {
+    "id": "p5",
+    "name": "White Linen Shirt",
+    "category": "shirts",
+    "color": "white",
+    "price": 39,
+    "rating": 4.4,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400",
+    "description": "Breathable white linen button-up for warm days."
+  },
+  {
+    "id": "p6",
+    "name": "Black Graphic Tee",
+    "category": "shirts",
+    "color": "black",
+    "price": 25,
+    "rating": 4.2,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400",
+    "description": "Modern black graphic tee with minimalist print."
+  },
+  {
+    "id": "p7",
+    "name": "Brown Leather Jacket",
+    "category": "jackets",
+    "color": "brown",
+    "price": 199,
+    "rating": 4.8,
+    "stock": 6,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+    "description": "Genuine brown leather biker jacket with quilted lining."
+  },
+  {
+    "id": "p8",
+    "name": "Navy Bomber Jacket",
+    "category": "jackets",
+    "color": "blue",
+    "price": 89,
+    "rating": 4.5,
+    "stock": 14,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+    "description": "Lightweight navy bomber with ribbed cuffs."
+  },
+  {
+    "id": "p9",
+    "name": "Black Down Puffer",
+    "category": "jackets",
+    "color": "black",
+    "price": 149,
+    "rating": 4.6,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400",
+    "description": "Warm black down puffer jacket for winter weather."
+  },
+  {
+    "id": "p10",
+    "name": "Silver Chronograph Watch",
+    "category": "watches",
+    "color": "silver",
+    "price": 129,
+    "rating": 4.7,
+    "stock": 9,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+    "description": "Stainless steel chronograph watch with leather strap."
+  },
+  {
+    "id": "p11",
+    "name": "Black Smart Watch",
+    "category": "watches",
+    "color": "black",
+    "price": 199,
+    "rating": 4.5,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400",
+    "description": "Modern smart watch with health tracking and GPS."
+  },
+  {
+    "id": "p12",
+    "name": "Gold Minimalist Watch",
+    "category": "watches",
+    "color": "gold",
+    "price": 89,
+    "rating": 4.3,
+    "stock": 11,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400",
+    "description": "Slim gold-tone watch with mesh band."
+  },
+  {
+    "id": "p13",
+    "name": "Brown Leather Backpack",
+    "category": "bags",
+    "color": "brown",
+    "price": 79,
+    "rating": 4.6,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "description": "Vintage-style brown leather backpack with laptop sleeve."
+  },
+  {
+    "id": "p14",
+    "name": "Black Crossbody Bag",
+    "category": "bags",
+    "color": "black",
+    "price": 49,
+    "rating": 4.4,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400",
+    "description": "Compact black crossbody bag with adjustable strap."
+  },
+  {
+    "id": "p15",
+    "name": "Wireless Bluetooth Headphones",
+    "category": "electronics",
+    "color": "black",
+    "price": 99,
+    "rating": 4.7,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+    "description": "Over-ear wireless headphones with active noise cancellation."
+  },
+  {
+    "id": "p16",
+    "name": "White Wireless Earbuds",
+    "category": "electronics",
+    "color": "white",
+    "price": 59,
+    "rating": 4.3,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=400",
+    "description": "Compact true-wireless earbuds with charging case."
+  },
+  {
+    "id": "p17",
+    "name": "Portable Bluetooth Speaker",
+    "category": "electronics",
+    "color": "blue",
+    "price": 39,
+    "rating": 4.2,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "description": "Waterproof portable speaker with 12-hour battery life."
+  },
+  {
+    "id": "p18",
+    "name": "Red Canvas High-Tops",
+    "category": "shoes",
+    "color": "red",
+    "price": 35,
+    "rating": 4.1,
+    "stock": 16,
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400",
+    "description": "Classic red canvas high-top sneakers."
+  }
+]
